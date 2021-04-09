@@ -9,7 +9,7 @@ public class Sparrow extends Animal {
     public Sparrow(String name) {
         super(name);
     }
-
+    public Sparrow(int name){super(name);}
     @Override //общий метод
     public void setName(String name) {
         this.name=name;

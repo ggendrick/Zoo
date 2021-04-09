@@ -9,7 +9,7 @@ public class Turtle extends Animal {
     public Turtle(String name) {
         super(name);
     }
-
+    public Turtle(int name){super(name);}
     @Override //общий метод
     public void setName(String name) {
         this.name=name;

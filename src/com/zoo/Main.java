@@ -2,6 +2,9 @@ package com.zoo;
 
 import com.zoo.animal.Animal;
 import com.zoo.animal.Bear;
+import com.zoo.animal.Turtle;
+
+import java.sql.SQLOutput;
 
 public class Main {
 
@@ -15,5 +18,7 @@ public class Main {
         bear1.eat();
         bear1.setName("Мишаня");
         System.out.println("Имя животного: "+bear1.getName());
+        Turtle turtle = new Turtle(123);
+        System.out.println(turtle.getName());
     }
 }

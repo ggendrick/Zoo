@@ -9,7 +9,7 @@ public class Bear extends Animal {
     public Bear(String name) {
         super(name);
     }
-
+    public Bear(int name){super(name);}
     @Override //общий метод
     public void setName(String name) {
         this.name=name;
