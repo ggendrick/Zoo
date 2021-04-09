@@ -14,7 +14,8 @@ public class Sparrow extends Animal {
     public void setName(String name) {
         this.name=name;
     }
-
+    @Override
+    public void setName(int name){ this.name=Integer.toString(name);}
     @Override //общий метод
     public String getName() {
         return this.name;

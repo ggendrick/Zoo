@@ -20,6 +20,7 @@ public abstract class Animal implements Say, Moove, Sleep {
     }
 
     public abstract void setName(String name);
+    public abstract void setName(int name);
     public abstract String getName();
     public abstract void eat();
 

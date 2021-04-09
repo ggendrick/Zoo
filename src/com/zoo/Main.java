@@ -20,5 +20,7 @@ public class Main {
         System.out.println("Имя животного: "+bear1.getName());
         Turtle turtle = new Turtle(123);
         System.out.println(turtle.getName());
+        turtle.setName("тортилла");
+        System.out.println(turtle.getName());
     }
 }
